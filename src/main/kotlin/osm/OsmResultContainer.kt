@@ -1,3 +1,5 @@
+package osm
+
 class OsmResultContainer {
     val users: MutableMap<String, Int> = HashMap()
     val tags: MutableMap<String, Int> = HashMap()

@@ -6,6 +6,8 @@ import javax.xml.stream.XMLStreamException
 import org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
+import osm.OsmProcessor
+import osm.OsmResultContainer
 
 
 fun main(args: Array<String>) {

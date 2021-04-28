@@ -1,12 +1,12 @@
+package osm
+
+import org.slf4j.LoggerFactory
 import java.io.InputStream
-import java.lang.AssertionError
 import javax.xml.namespace.QName
 import javax.xml.stream.XMLEventReader
 import javax.xml.stream.XMLInputFactory
 import javax.xml.stream.XMLStreamConstants
 import javax.xml.stream.XMLStreamException
-
-import org.slf4j.LoggerFactory
 
 class OsmProcessor private constructor() {
     init {
